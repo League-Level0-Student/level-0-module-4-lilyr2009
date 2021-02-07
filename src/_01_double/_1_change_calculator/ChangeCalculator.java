@@ -23,9 +23,11 @@ int money=Integer.parseInt(dime);
 String quart=JOptionPane.showInputDialog(null, "how many quarters do you have?");
 int greedy=Integer.parseInt(quart);
 		// Calculate how much money the user has.  Hint: Use a double variable 
-
+double nickelAmount = calculate*0.05;
+double dimeAmount = money*.1;
+double quarterAmount = greedy*.25;
 		// Tell the user how much money they have in dollars and cents format (e.g. $6.75)
-
+JOptionPane.showMessageDialog(null, nickelAmount+dimeAmount+quarterAmount);
 	}
 }
 

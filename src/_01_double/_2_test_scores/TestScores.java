@@ -6,5 +6,6 @@ public static void main(String[] args) {
 	String test=JOptionPane.showInputDialog("what is your test score?");
 	double score=Double.parseDouble(test);
 	
+	
 }
 }

@@ -12,20 +12,32 @@ public class SleepyHead {
 		/************************  SLEEPY HEAD  **************************/
 		boolean isWeekend;
 		// Write code to ask the user what day it is.
-        
+        String day=JOptionPane.showInputDialog(null, "what day is it?");
 		// Set the boolean isWeekend based on the value they enter
-		
-		
+		if(day.equals("saturday")){
+			isWeekend=true;
+		}
+		else if(day.equals("sunday")){
+		isWeekend=true;
+		}
+		else {
+			isWeekend=false;
+		}
+	
 		// If it is the weekend, tell the user they get to sleep in.
-		
+		if(isWeekend==true) {
+			JOptionPane.showMessageDialog(null, "go sleep in");
+		}
 		// If it is not the weekend, tell them to get out of bed and go to school!
-		
-		
+	if(isWeekend==false) {
+		JOptionPane.showMessageDialog(null, "get out of bed and go to school");
+	}
+	
 		/************************   STAR STUDENT  **************************/
 
 		boolean passedExam;
 		// Write code to ask the user what percentage they scored in their last exam
-
+JOptionPane.showInputDialog(null, "what percentage did u score on ur last test?");
 		
 		// If they scored more than 70, they passed the exam.
 		// Set the boolean passedExam based on their score.

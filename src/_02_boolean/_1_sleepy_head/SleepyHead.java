@@ -39,7 +39,10 @@ public class SleepyHead {
 		// Write code to ask the user what percentage they scored in their last exam
 JOptionPane.showInputDialog(null, "what percentage did u score on ur last test?");
 		
-		// If they scored more than 70, they passed the exam.
+		// If they scored more than 70, they passed the exam.\
+if(score>70) {
+	JOptionPane.showMessageDialog(null, "you passed!");
+}
 		// Set the boolean passedExam based on their score.
 		
 		// If the user passed the exam, congratulate them

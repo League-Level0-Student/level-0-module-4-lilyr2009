@@ -57,20 +57,22 @@ if(score>70) {
 		while (!gameIsOver) {
 			// Ask the user if the game is over. 
 			String gameOver = JOptionPane.showInputDialog("is game over");
-			if (gameOver.equalsIgnoreCase("yes"))
-				gameIsOver = true;
+			
 			
 			// If they answer "yes", change gameIsOver to true
-
+			if (gameOver.equalsIgnoreCase("yes"))  {
+				gameIsOver = true;     
+			}
 		}
+			
 		// Tell the user "game is over" 
-		
+		JOptionPane.showMessageDialog(null, "game is over");
 		
 		/***********************   RED SQUARE  ********************/
 		
 		boolean isRed;
 		// Ask the user what color to draw with. Based on their answer, set the isRed variable
-		
+		JOptionPane.showInputDialog(null, "what color should I draw with?");
 		
 		boolean isSquare;		
 		// Now ask the user what shape to draw. Based on their answer, set the isSquare variable

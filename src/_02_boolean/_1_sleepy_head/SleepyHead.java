@@ -76,14 +76,15 @@ if(score>70) {
 		
 		boolean isSquare;		
 		// Now ask the user what shape to draw. Based on their answer, set the isSquare variable
-		
+		JOptionPane.showInputDialog(null, "what shape shoud I draw");
+		if(isSquare=true) {
 		
 		// Now you MUST use the && operator to join the booleans for this code. 
 		// Ask your teacher if you are not sure how
 		// Use an if statement to ONLY draw a red square when it has been requested (use the method below)
 		// otherwise, tell the user you don't know how to draw that shape
 		
-
+		}
 	}
 
 	

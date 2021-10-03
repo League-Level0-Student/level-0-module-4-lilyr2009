@@ -17,9 +17,21 @@ void draw() {
   ellipse(480,250,170,200);
   fill(#0F0101);
   ellipse(mouseX+100,mouseY,15,20);
-  println(mouseX+""+mouseY);
+  println(mouseX+", "+mouseY);
+ 
+ if(mouseX<250){
+    mouseX=250;
+  }
+ /* if(mouseX<0){
+    mouseX=0;
+  }
+  if(mouseY<0){
+    mouseY=0;
   
-  
-  
+  }
+  if(mouseY>100);{
+    mouseY=100;
+  }
+  */
  
 }

@@ -18,20 +18,24 @@ void draw() {
   fill(#0F0101);
   ellipse(mouseX+100,mouseY,15,20);
   println(mouseX+", "+mouseY);
- 
- if(mouseX<250){
-    mouseX=250;
+ //right
+ if(mouseX<450){
+    mouseX=450;
+   
   }
- /* if(mouseX<0){
-    mouseX=0;
+  //left
+  if(mouseX<300){
+    mouseX=300;
   }
-  if(mouseY<0){
-    mouseY=0;
+  //up
+  if(mouseY<100){
+    mouseY=100;
   
   }
-  if(mouseY>100);{
-    mouseY=100;
+  //down
+  if(mouseY>150);{
+    mouseY=150;
   }
-  */
+ 
  
 }

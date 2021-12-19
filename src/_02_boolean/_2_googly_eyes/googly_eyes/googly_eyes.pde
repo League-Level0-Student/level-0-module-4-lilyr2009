@@ -38,13 +38,13 @@ void draw() {
     mouseX=350;
   }
   //up
-  if(mouseY<150){
-    mouseY=150;
+  if(mouseY<200){
+    mouseY=200;
   
   }
   //down
-  if(mouseY>250);{
-    mouseY=250;
+  if(mouseY>150);{
+    mouseY=150;
   }
  */
  

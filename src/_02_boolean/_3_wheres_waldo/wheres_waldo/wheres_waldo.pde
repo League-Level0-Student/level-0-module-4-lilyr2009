@@ -4,17 +4,18 @@
 	 * If you cannot play sound on this computer, set canPlaySounds to false.
 	 * If you are not sure, ask your teacher 
 	 * *****************/
-boolean canPlaySounds = true;
+boolean canPlaySounds = false;
 
 void setup() {
   
-  //Find a Where's Waldo picture and drop it into this sketch.     
+  //Find a Where's Waldo picture and drop it into this sketch. 
   PImage waldo = loadImage("waldo.jpg"); // Change this to match your file name.
   size(600, 400); 
   // Resize your waldo picture to the same size as the sketch
+  waldo.resize(width,height);
   
   // Make the waldo image your sketch background
-
+background(waldo);
 }
 
 void draw() {
